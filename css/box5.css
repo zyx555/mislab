@@ -1,0 +1,75 @@
+#box5{
+    position: relative;
+    width: 1357px;
+    height: 721px;
+    min-height: 680px;
+    max-height: 840px;
+    overflow-y: hidden;
+  }
+  .box5-All{
+    width: 1357PX;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .chengyuandongtai{
+    margin: 50PX 0;
+    font-size: 30px;
+    font-weight:400 ;
+    color: black;
+    text-align: center;
+  }
+  .box5-center{
+    width: 100%;
+    height: 510PX;
+    display: flex;
+    justify-content: space-between;
+  }
+  .caifang{
+    width: 660px;
+  }
+  .caifangtitle{
+    font-size:40px;
+    font-weight: 600;
+    color: black;
+    margin-left: 60px;
+  }
+  .quxiang{
+    width: 400PX;
+    height: 100%;
+    /* position: relative; */
+    margin-left: 900px;
+    margin-top: -400px;
+    overflow: hidden;
+  }
+  .animate {
+        padding-left: 20px;
+        font-size: 14px;
+        color: #000;
+        display: inline-block;
+        white-space: nowrap;
+        animation: 10s wordsLoop linear infinite alternate;
+    }
+
+    @keyframes wordsLoop {
+        0% {
+            transform: translateX(200px);
+            -webkit-transform: translateX(200px);
+        }
+        100% {
+            transform: translateX(-100%);
+            -webkit-transform: translateX(-100%);
+        }
+    }
+
+    @-webkit-keyframes wordsLoop {
+        0% {
+            transform: translateX(200px);
+            -webkit-transform: translateX(200px);
+        }
+        100% {
+            transform: translateX(-100%);
+            -webkit-transform: translateX(-100%);
+        }
+    }

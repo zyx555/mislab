@@ -1,0 +1,150 @@
+#box4{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: 680px;
+    max-height: 840px;
+    margin-bottom: 100px;
+    overflow-y: hidden;
+    margin-top: 0px;
+   
+  }
+  .box4-All{
+    width: 1433PX;
+    height: 100%;
+    margin: 0 auto;
+    padding: 46PX 0 67PX;
+    display: flex;
+    justify-content: space-between;
+  }
+  .erp{
+    animation: leftMove 1s forwards;
+    -webkit-animation: leftMove 1s forwards;
+    /* position: absolute; */
+    text-align: center;
+    padding: 40PX;
+    width: 410px;
+    height: 450px;
+    border-radius: 30px;
+    left:6%;
+    background: linear-gradient(270deg,#c9dae7,#ebeff9);
+  }
+  .erptitle1{
+    /* position: absolute; */
+    font-size: 30px;
+    font-weight: 600;
+    left:100px;
+    color:black;
+    top:40px;
+    text-align: center;
+  }
+  .erptitle2{
+    /* position: absolute; */
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: -2px;
+    color: rgb(51, 124, 158);
+  }
+  .erppage{
+    /* position: absolute; */
+    width: 350px;
+    height: 100px;
+    font-size: 18px;
+    color: black;
+   margin-top: 33px;
+  }
+  .erptupian{
+    width:300px;
+    height: 200px;
+    margin-top: 23px;
+  }
+  .box4-right{
+    width: 880PX;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .box4-right-top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* opacity: 0; */
+  }
+  .chanpinjieshao{
+    width: 300px;
+    height:210px ;
+    font-size: 40px;
+    font-weight: 600;
+    border-radius: 30px;
+    line-height: 180px;
+    display: flex;
+    text-align: center;
+    color:black;
+    background-color: rgba(65,65,65,0.11);
+    flex-direction: column;
+    justify-content: center;
+  }
+  .muqianxiangmu{
+    width: 540PX;
+    min-width: 440PX;
+    height: 220PX;
+    border-radius: 30PX;
+    padding: 20pX 40PX;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: rgba(65,65,65,0.11);
+  }
+  .xiangmu{
+    width: 400px;
+    font-size: 20px;
+    text-align: center;
+  }
+.box4-right-buttom{
+  width: 600PX;
+}
+  .youwen{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 200PX;
+    padding: 18PX 36PX;
+    border-radius: 30px;
+    background: linear-gradient(90deg,#f1f2d0,#b1d8b4)
+  }
+  .youwentupian{
+    width:170px;
+    height:170px;
+  }
+  .youwentitle1{
+    width: 600px;
+    margin-top: 6px;
+    font-size: 30px;
+    font-weight: 600;
+    color:black;
+  }
+  .youwentitle2{
+    width: 600px;
+    margin-top: 8px;
+    font-size: 23px;
+    font-weight: 550;
+    color:rgb(95, 150, 95);
+  }
+  .youwenpage{
+    color:black;
+    margin-top: 12px;
+  }
+  @keyframes leftmove {
+    0% {
+      transform: translateX(-100PX);
+      opacity: 0;
+  }
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+  }

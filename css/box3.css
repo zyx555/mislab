@@ -1,0 +1,112 @@
+#box3{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: 680px;
+    max-height: 840px;
+    margin-bottom: 100px;
+    overflow-y: hidden;
+    margin-top: 0px;
+   
+  }
+  .bumenjieshao{
+    font-size: 30px;
+    width:200px;
+    height:100px;
+    margin-left: 1300px;
+    margin-top: 80px;
+    color:black;
+  }
+  .qianduan,
+  .houduan,
+  .chanpin,
+  .jiqixuexi,
+  .anzhuo{
+    /* position: absolute; */
+    left:12%;
+    display: flex;
+    flex-direction: row;
+  }
+  .webtupian,
+  .houduantupian,
+  .chanpintupian,
+  .jiqixuexitupian,
+  .anzhuotupian{
+    height:400px;
+    width: 450px;
+    margin-left: 40px;
+  }
+  .webbox,
+  .houduanbox,
+  .chanpinbox,
+  .jiqixuexibox,
+  .anzhuobox{
+    display: inline;
+    /* position: absolute; */
+    width:1100px;
+    height:400px;
+    left:90%;
+    top: 40px;
+    color:black;
+    border-radius: 30px;
+    
+  }
+  .web,
+  .houduantitle,
+  .chanpintitle,
+  .jiqixuexititle,
+  .anzhuotitle{
+    display:inline-block;
+    /* position: absolute; */
+    font-size: 50px;
+    left:21%;
+    
+  }
+  .webpage,
+  .houduanpage,
+  .chanpinpage,
+  .jiqixuexipage,
+  .anzhuopage{
+    width:500px;
+    height:400px;
+    top:80px;
+    font-size: 30px;
+    left:21%;
+    line-height: 180%;
+    text-align: justify;
+    font-weight: 500;
+  }
+  #outer{
+    height: 700px;
+    width: 1100px;
+    position: relative;
+    margin: 50px auto;
+    overflow: hidden;  
+    
+  }
+  #my_slider {
+    position:absolute;
+    width:8800px;
+    list-style: none;
+    /* left:0px; */
+  }
+  #my_slider li{
+    float:left;
+    margin: 0 10px;
+  }
+  #nav{
+    position: absolute;
+    margin-top: 450px;
+    
+  }
+  #nav a{
+    float:left;
+    width: 25px;
+    height: 15px;
+    margin: 0 10px;
+    border-radius: 10px;
+    background-color:rgba(65,65,65,0.11) ;
+  }
+  #nav a:hover{
+    background-color: #4f5152;
+  }

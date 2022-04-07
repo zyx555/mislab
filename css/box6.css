@@ -1,0 +1,102 @@
+#box6{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: 680px;
+    max-height: 840px;
+    margin-bottom: 100px;
+    overflow-y: hidden;
+    margin-top: 0px;
+   
+  }
+  .zhaoxinliuchengtitle{
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+    margin-left: 100px;
+  }
+  .zhaoxinliucehng{
+    width: 100%;
+    height: 500px;
+    margin-top: 300px;
+    
+  }
+  .liucheng1{
+    width: 150px;
+    height:120px;
+    margin-top: 50px;
+    margin-left: 380px;
+  }
+  .liucheng2,.liucheng3{
+   width: 150px;
+    height:120px;
+    margin-left: 160px;
+  }
+ 
+  .jiantou1,.jiantou2{
+    position: absolute;
+    width:48px;
+    height:30px;
+    margin-top: 130px;
+    margin-left: 36px;
+  }
+  .baoming,.zhaoxin,.offer{
+    position: absolute;
+   width: 200px;
+   height: 150px;
+   color: black;
+   margin-top: -1px;
+    text-align: center;
+  }
+  .baoming{
+    margin-left: 360px;
+  }
+  .zhaoxin{
+   margin-left:660px ;
+  }
+  .offer{
+    margin-left: 1000px;
+  }
+  .baomingtitle,.zhaoxintitle,.offertitle{
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .baomingshijian,.zhaoxinshijian,.offershijian{
+    font-size: 20px;
+    font-weight: 500;
+  }
+ .jiaruwomen{
+   width:450px;
+   height: 150px;
+   position: absolute;
+  margin-left: 530px;
+  margin-top: 100px;
+
+ }
+ .wenzi{
+   font-size: 38px;
+   font-weight: 600;
+   color: black;
+   text-align: center;
+   margin-top: 290px;
+   letter-spacing: 22px;
+   padding: 30PX 0
+ }
+ .foot{
+  width: 450px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 290PX;
+ }
+ .baomingtoudi,.xueyuanxitong,.zhaoxinzixun{
+   display: inline-block;
+   width: 90px;
+   height: 37px;
+   border-radius: 10px;
+   font-size: 19px;
+   line-height: 32px;
+   text-align: center;
+   color: black;
+   background-color: #d6edee;
+   cursor: pointer;
+ }
